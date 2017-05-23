@@ -1,0 +1,286 @@
+/*ELEMENTOS e MEUS ESTILOS*/
+.boxElemEstilos{
+    height: 280px;
+    width: 1010px;
+    padding: 10px 20px 10px 150px;
+}
+
+.spacer {
+    height: 8px;
+    margin-bottom: 30px;
+    border-bottom: 1px dotted #d7d7d7;
+}
+
+.layoutBoxes{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.49), inset 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.49), inset 0 1px 0 #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.49), inset 0 1px 0 #fff;    
+}
+
+#boxNovoElemento{
+    width: 300px; 
+    height: 200px;
+    padding: 10px 20px 10px 20px;
+    float: left;
+}
+
+#boxElementos{
+    width: 620px;
+    height: 200px;
+    padding: 10px 20px 10px 20px;
+    float: right;
+}
+
+#boxMeusEstilos{
+    width: 300px; 
+    height: 300px;
+    /*height: auto;*/
+    
+    padding: 10px 20px 10px 20px;
+    float: left;
+}
+
+#boxMeusElementos{
+    width: 620px;
+    height: 300px;
+    padding: 10px 20px 10px 20px;
+    float: right;
+}
+
+h2{
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    font-weight: 200;
+    background-color: #FFFFFF;    
+}
+
+.dadosMeusEstilos{
+    margin-top: -10px;
+    overflow-y: auto;
+    height: 245px;
+}
+
+.dadosMeusEstilos a{
+    list-style: none; 
+    text-decoration: none;
+    color: #000000;
+}
+
+/*DADOS MEUS ESTILOS*/
+.listaDadosMeusEstilos a{
+    list-style: none; 
+    text-decoration: none;
+    color: aliceblue;
+}
+.listaDadosMeusEstilos{
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.49), inset 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.49), inset 0 1px 0 #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.49), inset 0 1px 0 #fff; 
+    background: #778899;
+    text-align: center;
+    color: aliceblue;
+}
+
+.listaDadosMeusEstilos:hover{
+    cursor: pointer;
+    background: #708090;
+}
+/*FIM DADOS MEUS ESTILOS*/
+
+/*DADOS MEUS ELEMENTOS*/
+.dadosMeusElementos a{
+    list-style: none; 
+    text-decoration: none;
+    color: #696969;
+}
+
+.dadosMeusElementos a:hover{
+    color: #000000;
+}
+
+.dadosMeusElementos table{
+    border: 1px solid #FFFFFF;
+}
+
+.dadosMeusElementos tr.impar{
+    background-color: #FFFFFF;
+}
+
+.dadosMeusElementos tr.par{
+    background-color: #DCDCDC;
+}
+
+.dadosMeusElementos tr{
+    text-align: center;
+}
+
+.dadosMeusElementos td{
+    width: 10%;
+}
+
+
+/*FIM DADOS MEUS ELEMENTOS*/
+
+/*CRIAR ESTILO*/
+.camposCriarEstilo{
+    padding: 25px 35px 25px 35px;
+}
+
+#boxNovoEstilo{
+    width: 650px; 
+    height: 200px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 300px;
+}
+
+#boxNovoEstilo label{
+    font-size: 20px;
+    color: #696969;
+}
+
+.txtDescEstilo{
+    border: 1px solid #D3D3D3;
+    height: 30px;    
+    width: 300px;
+}
+
+.txtDescEstilo:focus{
+    border-color:#708090;
+    box-shadow: 0 0 5px #708090;
+}
+
+.btnCriarEstilo{
+    height: 30px;
+    width: 100px !important;
+    margin-top: 10px;    
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 15px;
+    border: 0px;
+}
+
+.btnCriarEstilo:hover{
+    box-shadow: 0 0 5px #708090;
+    border-color: #708090;
+    background-color: #CC3B06;
+    cursor: pointer;
+    text-shadow: 0 0 5px #DCDCDC;
+}
+
+/*FIM CRIAR ESTILO*/
+
+/*FIM ELEMENTOS E MEUS ESTILOS*/
+
+/*BOTÕES ELEMENTOS*/ /*LISTA DE NOVO ELEMENTO*/
+.elementosBox{ 
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.49), inset 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.49), inset 0 1px 0 #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.49), inset 0 1px 0 #fff; 
+    background: #778899;
+    text-align: center;
+    color: aliceblue;
+}
+
+.elementosBox:hover{
+    cursor: pointer;
+    background: #708090;
+}
+/*FIM BOTÕES ELEMENTOS*/
+
+
+
+
+/*ABAS VISUALIZAÇÃO DE CÓDIGO*/
+.tabs-container {
+    position: relative;
+    height: 360px;
+    max-width: 98%;
+    margin: 0 auto;
+}
+.tabs-container p{
+  margin: 0;
+  padding: 0;
+}
+.tabs-container div{
+    overflow: auto;
+}
+.tabs-container:after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  visibility: none; 
+}
+input.tabs {
+  display: none;
+}
+input.tabs + label {
+  line-height: 40px;
+  padding: 0 20px;
+  float: left;
+
+  background: #444;
+  color: #fff;
+  cursor: pointer;
+  transition: background ease-in-out .3s;
+}
+input.tabs:checked + label {
+  color: #000;
+  background: #eee;
+}
+input.tabs + label + div {
+  width: 98%;
+  opacity: 0;
+  position: absolute;
+  background: #eee;
+  top: 40px;
+  left: 0;
+  height: 300px;
+  padding: 10px;
+  z-index: -1;
+  transition: opacity ease-in-out .3s;
+}
+input.tabs:checked + label + div {
+  opacity: 1;
+  z-index: 1000;
+}
+
+
+.mfp-hide {
+    display: none !important;
+}
+.white-popup-block {
+    background: #FFF;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 650px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 700px;
+  margin: 20px auto;
+}
+/* FIM ABAS VISUALIZAÇÃO DE CÓDIGO*/
+

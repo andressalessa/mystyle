@@ -1,0 +1,138 @@
+/*CADASTRO USUARIO*/
+.borderCadastro{
+    height: 350px;
+    width: 400px;
+    top: 175px;
+    float: left;
+    left: 110px;
+    background: white;
+    /*background: -moz-linear-gradient(#333333,#666666,#333333,#000000); /*Preto*/
+    box-shadow: 0 2px 8px grey;
+    position: relative;
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 1em 1em 1em 1em;
+}
+
+/*.innerCadastro{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 95%;
+    height: 95%;
+    margin: auto; 
+    background: white;
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 1em 4em 1em 4em;
+}*/
+
+.contentCadastro{
+    position: absolute;
+    top: -120;
+    bottom: 0;
+    left: -150px;
+    right: 0;
+    width: 40%;
+    height: 10%;
+    margin: auto;
+}
+
+#btnCadUsuario{
+    width: 140px;
+}
+
+.borderCadastro h1{
+    color: #696969;
+    text-align: center;
+}
+
+.contentCadastro label{
+    font-size: 20px;
+    float: left;
+    color: #696969;
+}
+
+.inputText{
+    border: 1px solid #D3D3D3;
+    height: 30px;    
+    width: 300px;
+}
+
+.inputText:focus{
+    border-color:#FF4500;
+    box-shadow: 0 0 5px #FF4500;
+}
+
+.inputButton{
+    height: 30px;
+    width: 300px !important;
+    margin-top: 10px;
+    float: left;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 15px;
+    border: 0px;
+}
+
+.inputButton:hover{
+    box-shadow: 0 0 5px #708090;
+    border-color: #CC3B06;
+    background-color: #CC3B06;
+    cursor: pointer;
+    text-shadow: 0 0 5px #DCDCDC;
+}
+
+/*FIM CADASTRO USUARIO*/
+
+/*BANNER DE IMAGENS ALTERANDO*/
+.borderBanner{
+    height: 289px;
+    width: 445px;
+    top: 215px;
+    float: right;
+    right: 110px;
+    background: white;
+    /*background: -moz-linear-gradient(#333333,#666666,#333333,#000000); /*Preto*/
+    box-shadow: 0 2px 8px grey;
+    position: relative;
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 1em 1em 1em 1em;
+}
+
+.innerBanner{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 95%;
+    height: 95%;
+    margin: auto; 
+    background: white;
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 1em 4em 1em 4em;
+}
+
+#banner{
+    position: absolute;
+    top: 0;
+}
+
+#banner img{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 445px;
+    height: 290px;
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 1em 1em 1em 1em;
+}
+
+#banner img.active{
+    display: block;
+}
+/*FIM BANNER*/

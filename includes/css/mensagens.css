@@ -1,0 +1,17 @@
+.text-error {
+  color: #b94a48;
+}
+
+a.text-error:hover,
+a.text-error:focus {
+  color: #953b39;
+}
+
+.text-success {
+  color: #468847;
+}
+
+a.text-success:hover,
+a.text-success:focus {
+  color: #356635;
+}

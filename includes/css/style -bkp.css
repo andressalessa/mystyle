@@ -1,0 +1,199 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin: 0 0 125px;
+	padding: 25px;
+}
+
+body {
+    background-color: #DCDCDC;
+}
+/*https://codemyviews.com/blog/inner-shadows-in-css-images-text-and-beyond*/
+
+content{
+    position: relative;
+    top: 100px;
+}
+
+/*VISUALIZAÇÃO*/
+.vBorder{
+    height: 280px;
+    width: 1010px;
+    top: 10px;
+    left: 150px;
+    background: -moz-linear-gradient(#333333,#666666,#333333,#000000); /*Preto*/
+    box-shadow: 0 2px 8px grey;
+    position: relative;
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 1em 4em 1em 4em;
+    
+}
+
+.vInner{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 95%;
+    height: 90%;
+    margin: auto; 
+    background: white;
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 1em 4em 1em 4em;
+}
+
+.vContent{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 40%;
+    height: 10%;
+    margin: auto;
+}
+
+/*FIM VISUALIZAÇÃO*/
+content p{
+    padding: 30px 20px 10px 250px;
+}
+/*CONFIGURAÇÕES ELEMENTO*/
+.boxConfigBoxes{
+    width: 780px;
+    padding: 30px 20px 200px 250px;
+}
+
+.spacer {
+    height: 8px;
+    margin-bottom: 30px;
+    border-bottom: 1px dotted #d7d7d7;
+}
+
+#configBoxes{
+    width: 200px;
+    height: 200px;
+    padding: 10px 20px 10px 20px;
+    float: left;
+    margin-left: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.49), inset 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.49), inset 0 1px 0 #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.49), inset 0 1px 0 #fff;    
+}
+
+h2{
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    font-weight: 200;
+    
+}
+
+#dadosBox1 table{
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+#dadosBox1 table tr td {
+    border:1px dotted #d7d7d7;
+    width: 50%;
+}
+
+td.esquerda{
+    width: 90%;
+}
+
+#divNormal, #divHover, #divPressed{
+    display: none;
+}
+
+#btnTxtColor, #btnBrdColor, #btnTopColor, #btnBottomColor, #btnTxtShadowColor{
+    float: right;
+}
+
+/*FIM CONFIGURAÇÕES ELEMENTO*/
+
+
+/*Botão teste view*/
+#buttonView {
+   border: 1px solid #33FFF6;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #24AB1A, #3DF261);
+   background: -moz-linear-gradient(top, #24AB1A, #3DF261);
+   background: -ms-linear-gradient(top, #24AB1A, #3DF261);
+   background: -o-linear-gradient(top, #24AB1A, #3DF261);
+   background-image: -ms-linear-gradient(top, #24AB1A 0%, #3DF261 100%);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: #FFFFFF;
+   font-size: 14px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#buttonView:hover {
+   border: 1px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #fff;
+   }
+#buttonView:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 1px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+   }
+
+
+/*CONFIGURAÇÕES DAS BOXES DE PROPRIEDADES*/
+
+#dadosBox1, #dadosBox2, #dadosBox3{
+    width: 200px;
+    height: 150px;
+    overflow: auto;
+}
+
+#tabOpSize td.esquerda{
+    width: 90%
+}
+
+#tabColorsNormal, #tabColorsHover, #tabColorsPressed, #tabOpColors,
+#tabOpSize, #tabOpFont, #tabOpBorder {
+    display: none;
+}
+
+#tabOpSize td input, #font-size, #tabOpBorder td input{
+    width: 40px;
+}
+
+#font-size, #font-family, #font-style, #font-weigth, #tabOpBorder td input{
+    float: right;
+}
