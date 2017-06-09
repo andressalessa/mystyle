@@ -1,0 +1,4 @@
+mystyle:
+  build: .
+  ports:
+    - '80:80'
