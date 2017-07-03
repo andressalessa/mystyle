@@ -23,8 +23,8 @@
 header{
     height: 80px;
     position: fixed;
-	/*background: #000000; /*Preto*/
-    background: green;
+	background: #000000; /*Preto*/
+    /*background: green;*/
     top: 0;
     right: 0px;
     left: 0px;
